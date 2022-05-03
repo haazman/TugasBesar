@@ -1,7 +1,4 @@
 @media (max-width: 1000px) {
-    .navbar{
-      background-color: var(--color-text);
-    }
     .nav-list {
         width: 70%;
       }
@@ -10,15 +7,12 @@
       }
 }
 
-@media (max-width: 360px) {
-    .navbar{
-    background-color: var(--color-text);
-    }
+@media (max-width: 450px) {
     .nav-list {
-    width: 75%;
+    width: 90%;
     }
     .nav-list a {
-    font-size: 0.9rem;
+    font-size: 1rem;
     }
 }
 
